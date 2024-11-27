@@ -42,6 +42,7 @@ main img{
 #atras{
     display: flex;
     align-items: center;
+    margin-left: 2%;
 }
 #atras i{
     margin:1vw 0;
@@ -50,6 +51,7 @@ main img{
 .arrow{
     width: 17px;
     height: 17px;
+    margin: 1%;
 }
 #imagenes{
     display: flex;
@@ -58,14 +60,26 @@ main img{
 }
 /*Celia*/
 .carrusel{
-    width: 7vh;
-    height: 7vh;
+    width: 5vh;
+    height: 5vh;
     border: 1px solid #000000;
     border-radius: 100%;
     overflow: hidden;
     object-fit: scale-down;
-
 }
+.pop_airbuds1{
+    margin:30% 0;
+}
+.pop_airbuds2{
+    margin:30% 0;
+}
+.pop_airbuds3{
+    margin:30% 0;
+}
+.pop_airbuds4{
+    margin:30% 0;
+}
+
 aside{
     width: 35%;
     display: flex;
