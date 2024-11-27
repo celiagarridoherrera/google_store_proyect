@@ -46,15 +46,24 @@ main img{
 #atras i{
     margin:1vw 0;
 }
+/*Celia*/
+.arrow{
+    width: 17px;
+    height: 17px;
+}
 #imagenes{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
+/*Celia*/
 .carrusel{
-    width: 5vh;
-    height: 5vh;
+    width: 7vh;
+    height: 7vh;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: scale-down;
 
 }
 aside{
