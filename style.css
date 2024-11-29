@@ -39,27 +39,27 @@ main img{
     border-radius: 36px;   
     width: 80%; 
 }
-#atras{
+#backButton{
     display: flex;
     align-items: center;
     margin-left: 2%;
 }
-#atras i{
+#backButton i{
     margin:1vw 0;
 }
 /*Celia*/
-.arrow{
+.back-arrow{
     width: 17px;
     height: 17px;
     margin: 1%;
 }
-#imagenes{
+#popImages{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 /*Celia*/
-.carrusel{
+.image-container{
     width: 5vh;
     height: 5vh;
     border: 1px solid #000000;
@@ -67,16 +67,16 @@ main img{
     overflow: hidden;
     object-fit: scale-down;
 }
-.pop_airbuds1{
+.pop_image1{
     margin:30% 0;
 }
-.pop_airbuds2{
+.pop_image2{
     margin:30% 0;
 }
-.pop_airbuds3{
+.pop_image3{
     margin:30% 0;
 }
-.pop_airbuds4{
+.pop_image4{
     margin:30% 0;
 }
 
@@ -86,12 +86,12 @@ aside{
     flex-direction: column;
     padding:5vh 0;
 }
-#precio{
+#price{
     margin: 3vh;
     padding: 1vh;
     background-color: rgba(212, 212, 233, 0.515);
 }
-#cesta{
+#addToCart{
     display: flex;
     justify-content: space-around;
     font-size: 0.985rem;
@@ -107,16 +107,16 @@ h1{
     font-size: 35px;
     font-weight: bold;
 }
-.barra, .foot{
+.nav-bar, .foot{
     display: flex;
 }
-.barra{
+.nav-bar{
     justify-content: flex-end;
 }
-.foot{    
+.footer{    
     justify-content: flex-start;
 }
-#logo {
+#navLogo {
     height: 4vh;
     margin: 1vh;
 }
@@ -132,7 +132,7 @@ li{
 i{
     margin:0 5%;
 }
-#colores{
+#colors{
     display: flex;
 }
 .color{
@@ -143,7 +143,7 @@ i{
     margin: 2%;
 }
 /*liam down*/
-#producto {
+#product {
     width: 300px;
     margin: auto;
     padding: 1.5rem;
@@ -152,34 +152,34 @@ i{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#producto h1 {
+#product h1 {
     font-size: 1.5rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 0.5rem;
 }
 
-#producto p {
+#product p {
     font-size: 0.875rem;
     font-weight: 400;
     color: #5f6368;
     margin: 0.5rem 0;
 }
 
-#producto p.precio {
+#product p.price {
     font-size: 1.1rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 1rem;
 }
 
-#producto .separador {
+#product .separator {
     border: none;
     border-top: 2px solid #b0b4b8;
     margin: 1rem 0;
 }
 
-#colores {
+#colors {
     display: flex;
     justify-content: space-around;
     gap: 1vh;
