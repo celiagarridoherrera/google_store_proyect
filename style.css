@@ -94,14 +94,16 @@ aside{
 #cesta{
     display: flex;
     justify-content: space-around;
-    font-size: 0.985rem;
 }
 button{
     background-color:rgb(26 115 232);
     color:rgb(253 252 244);
     font-family: inherit;
+    font-size: 8px;
     width: 70%;
-    padding:3%;
+}
+button input{
+    width: 20%;
 }
 h1{
     font-size: 35px;
