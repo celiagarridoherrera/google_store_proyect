@@ -33,10 +33,13 @@ header{
     justify-self: flex-start;
     
 }
+#nav_icons{
+   margin-left: auto;
+   margin-right: 3%;
+}
 nav{
-    justify-content: space-between;
-    display: flex;
-} 
+    justify-content: start;
+}
 
 footer{
     position: absolute;
@@ -122,9 +125,7 @@ h1{
 .footer{    
     justify-content: flex-start;
 }
-.nav_left{
-    
-}
+
 #nav_logo_img{
     height: 4vh;
     margin: 1vh;
