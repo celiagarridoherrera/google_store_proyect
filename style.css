@@ -119,19 +119,16 @@ h1{
     font-size: 35px;
     font-weight: bold;
 }
-.nav_bar, .foot{
-    display: flex;
-}
-.nav_bar{
-    justify-content: flex-end;
-}
 .footer{    
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     justify-content: flex-start;
 }
-#nav_logo {
+.nav_left{
+    
+}
+#nav_logo_img{
     height: 4vh;
     margin: 1vh;
+
 }
 ul{
     list-style-type: none;
@@ -164,55 +161,35 @@ i{
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-#producto h1 {
-=======
 
 #product h1 {
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 1.5rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 0.5rem;
 }
-<<<<<<< HEAD
-#producto p {
-=======
 
 #product p {
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 0.875rem;
     font-weight: 400;
     color: #5f6368;
     margin: 0.5rem 0;
 }
-<<<<<<< HEAD
-#producto p.precio {
-=======
 
 #product p.price {
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 1.1rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 1rem;
 }
-<<<<<<< HEAD
-#producto .separador {
-=======
 
 #product .separator {
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     border: none;
     border-top: 2px solid #b0b4b8;
     margin: 1rem 0;
 }
-<<<<<<< HEAD
-#colores {
-=======
 
 #colors {
->>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     display: flex;
     justify-content: space-around;
     gap: 1vh;
@@ -235,14 +212,14 @@ i{
     background-color: #e6e3df;
 }
 
-.color.dark-grey {
+.color.dark_grey {
     background-color: #4b4b4d;
 }
 .color.grey {
     background-color: #d2d7da;
 }
 
-.color.green-swamp {
+.color.green_swamp {
     background-color: #dfe5b7;
 }
 .color.peach {
