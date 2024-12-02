@@ -52,27 +52,27 @@ main img{
     border-radius: 36px;   
     width: 80%; 
 }
-#atras{
+#backButton{
     display: flex;
     align-items: center;
     margin-left: 2%;
 }
-#atras i{
+#backButton i{
     margin:1vw 0;
 }
 /*Celia*/
-.arrow{
+.back-arrow{
     width: 17px;
     height: 17px;
     margin: 1%;
 }
-#imagenes{
+#popImages{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 /*Celia*/
-.carrusel{
+.image-container{
     width: 5vh;
     height: 5vh;
     border: 1px solid #000000;
@@ -80,16 +80,16 @@ main img{
     overflow: hidden;
     object-fit: scale-down;
 }
-.pop_airbuds1{
+.pop_image1{
     margin:30% 0;
 }
-.pop_airbuds2{
+.pop_image2{
     margin:30% 0;
 }
-.pop_airbuds3{
+.pop_image3{
     margin:30% 0;
 }
-.pop_airbuds4{
+.pop_image4{
     margin:30% 0;
 }
 aside{
@@ -98,38 +98,43 @@ aside{
     flex-direction: column;
     padding:5vh 0;
 }
-#precio{
+#price{
     margin: 3vh;
     padding: 1vh;
     background-color: rgba(212, 212, 233, 0.515);
 }
-#cesta{
+#addToCart{
     display: flex;
     justify-content: space-around;
+    font-size: 0.985rem;
 }
 button{
     background-color:rgb(26 115 232);
     color:rgb(253 252 244);
     font-family: inherit;
-    font-size: 8px;
     width: 70%;
-}
-button input{
-    width: 20%;
+    padding:3%;
 }
 h1{
     font-size: 35px;
     font-weight: bold;
 }
-.barra, .foot{
+.nav-bar, .foot{
     display: flex;
 }
+<<<<<<< HEAD
 
 
 .foot{    
+=======
+.nav-bar{
+    justify-content: flex-end;
+}
+.footer{    
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     justify-content: flex-start;
 }
-#logo {
+#navLogo {
     height: 4vh;
     margin: 1vh;
 }
@@ -145,7 +150,7 @@ li{
 i{
     margin:0 5%;
 }
-#colores{
+#colors{
     display: flex;
 }
 .color{
@@ -156,7 +161,7 @@ i{
     margin: 2%;
 }
 /*liam down*/
-#producto {
+#product {
     width: 300px;
     margin: auto;
     padding: 1.5rem;
@@ -164,30 +169,55 @@ i{
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+<<<<<<< HEAD
 #producto h1 {
+=======
+
+#product h1 {
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 1.5rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 0.5rem;
 }
+<<<<<<< HEAD
 #producto p {
+=======
+
+#product p {
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 0.875rem;
     font-weight: 400;
     color: #5f6368;
     margin: 0.5rem 0;
 }
+<<<<<<< HEAD
 #producto p.precio {
+=======
+
+#product p.price {
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     font-size: 1.1rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 1rem;
 }
+<<<<<<< HEAD
 #producto .separador {
+=======
+
+#product .separator {
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     border: none;
     border-top: 2px solid #b0b4b8;
     margin: 1rem 0;
 }
+<<<<<<< HEAD
 #colores {
+=======
+
+#colors {
+>>>>>>> 72f4cc4966f86a1777cdd0b98c68d858b99a7494
     display: flex;
     justify-content: space-around;
     gap: 1vh;

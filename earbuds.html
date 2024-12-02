@@ -23,38 +23,42 @@
                     <li>Subscripcions</li><a href="https://store.google.com/product/nest_aware?hl=es"></a>
                   </ul>
             </div>
-            <div class="nav-icons">
-                <div><img id="Search" src="img/icons/Search.svg"></div>
-                <div><img id="Help" src="img/icons/Help.svg"></div> 
-                <div><img id="Cart" src="img/icons/Cart.svg"></div>
-                <div><img id="User" src="img/icons/Avatar.svg"></div>
+            <div class="nav-bar">
+                <img id="searchIcon" src="img/icons/Search.svg">
+                
+                <img id="helpIcon" src="img/icons/Help.svg"> 
+                
+                <img id="cartIcon" src="img/icons/Cart.svg">
+            
+                <img id="userIcon" src="img/icons/Avatar.svg">
+
             </div>
         </nav>
     </header>
     <main>
-        <div id="atras"><!--Celia-->
-            <img class="arrow" src="img/icons/Arrow.svg">
+        <div id="backButton"><!--Celia-->
+            <img class="back-arrow" src="img/icons/Arrow.svg">
             <p>See product details</p>
         </div>
-        <div id="imagenes"><!--Celia-->
+        <div id="popImages"><!--Celia-->
             <div>
-                <div class="pop_airbuds1"><img class="carrusel" src="img/airbuds/airbuds1.png"></div>
-                <div class="pop_airbuds2"><img class="carrusel" src="img/airbuds/airbuds2.png"></div>
-                <div class="pop_airbuds3"><img class="carrusel" src="img/airbuds/airbuds3.png"></div>
-                <div class="pop_airbuds4"><img class="carrusel" src="img/airbuds/airbuds4.png"></div>
+                <div class="pop_image1"><img class="image-container" src="img/airbuds/airbuds1.png"></div>
+                <div class="pop_image2"><img class="image-container" src="img/airbuds/airbuds2.png"></div>
+                <div class="pop_image3"><img class="image-container" src="img/airbuds/airbuds3.png"></div>
+                <div class="pop_image4"><img class="image-container" src="img/airbuds/airbuds4.png"></div>
             </div>
             <img src="img/airbuds/airbuds.png">
         </div>
     </main>
     <aside>
         
-        <div id="producto"><!--liam-->
+        <div id="product"><!--liam-->
             <h1>Google Pixel Buds Pro</h1>
             <p>Music & Sound</p>
-            <p class="precio">229 €</p>
-            <hr class="separador">
+            <p class="price">229 €</p>
+            <hr class="separator">
             <p>Choose a color</p>
-            <div id="colores">
+            <div id="colors">
                 <div class="color blue" title="blue"></div>
                 <div class="color cream" title="cream"></div>
                 <div class="color dark-grey" title="dark grey"></div>
@@ -64,11 +68,18 @@
             </div>
         </div>
         
-        <div id="precio"> <!--Marta-->
+        <div id="price"> <!--Marta-->
             <h1>229 €</h1>
             <hr>
-            <div id="cesta">
-                <input type="number" placeholder="0">
+            <div id="addToCart">
+                <select>
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>                    
+                    <option value="5">5</option>
+                </select>
                 <button>
                     Add to cart
                 </button>
@@ -83,6 +94,7 @@
             <img id="youtube" src="img/icons/SM-youtube.svg">
             <img id="tiktok" src="img/icons/SM-tiktok.svg">
         </div>
+        <div class="footer">
         <div class="footer">
             <ul>
                 <a href="https://store.google.com/es/regionpicker?hl=es"><img id="españa" src="img/icons/Spain.svg">
