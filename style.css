@@ -6,9 +6,9 @@ body{
     align-content: center;
     height: 100vh;
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 0.825rem;
 }
-header, footer{
+header{
     width: 100%;
     height: fit-content;
     background-color: rgba(212, 212, 233, 0.515);
@@ -17,7 +17,7 @@ header, footer{
     justify-items: space-between; 
 
 }
-nav, footer {
+nav{
     display: flex;
     flex-wrap:wrap; /*add by Ro*/
     align-items: center;
@@ -38,16 +38,12 @@ header{
    margin-right: 3%;
 }
 nav{
-    justify-content: start;
+    justify-content: flex-start;
+} 
+.nav_entries_selected{
+    color:blue;
 }
 
-footer{
-    position: absolute;
-    bottom:0;
-    justify-content: space-around;
-    font-weight: regular;
-    font-size: 8px;
-}
 main{
     width: 65%;
 }
@@ -122,10 +118,20 @@ h1{
     font-size: 35px;
     font-weight: bold;
 }
-.footer{    
-    justify-content: flex-start;
-}
+footer{
+    display: flex;
+    position: absolute;
+    bottom:0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 0.575rem;
 
+}
+#nav_icons{
+    margin-left: auto;
+    margin-right: 3%;
+}
 #nav_logo_img{
     height: 4vh;
     margin: 1vh;
@@ -139,9 +145,7 @@ ul{
 }
 li{
     margin:0 2%;
-}
-i{
-    margin:0 5%;
+    white-space: nowrap;
 }
 #colors{
     display: flex;
