@@ -12,19 +12,32 @@ header, footer{
     width: 100%;
     height: fit-content;
     background-color: rgba(212, 212, 233, 0.515);
+    font-family: "Inter", sans-serif; /*add by Ro*/
+    align-content: center; /*add by Ro*/
+    justify-items: space-between; 
+
 }
 nav, footer {
     display: flex;
+    flex-wrap:wrap; /*add by Ro*/
     align-items: center;
     box-sizing: border-box;
+    justify-content: space-around /*add by Ro*/
+    
 }
 header{    
     position: absolute;
-    top:0
+    border-style: none none solid none;
+    border-color: rgb(183, 178, 178);
+    justify-items: space-between; 
+    justify-self: flex-start;
+    
 }
 nav{
     justify-content: space-between;
-}
+    display: flex;
+} 
+
 footer{
     position: absolute;
     bottom:0;
@@ -79,7 +92,6 @@ main img{
 .pop_airbuds4{
     margin:30% 0;
 }
-
 aside{
     width: 35%;
     display: flex;
@@ -112,9 +124,8 @@ h1{
 .barra, .foot{
     display: flex;
 }
-.barra{
-    justify-content: flex-end;
-}
+
+
 .foot{    
     justify-content: flex-start;
 }
@@ -153,40 +164,34 @@ i{
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 #producto h1 {
     font-size: 1.5rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 0.5rem;
 }
-
 #producto p {
     font-size: 0.875rem;
     font-weight: 400;
     color: #5f6368;
     margin: 0.5rem 0;
 }
-
 #producto p.precio {
     font-size: 1.1rem;
     font-weight: 700;
     color: #202124;
     margin-bottom: 1rem;
 }
-
 #producto .separador {
     border: none;
     border-top: 2px solid #b0b4b8;
     margin: 1rem 0;
 }
-
 #colores {
     display: flex;
     justify-content: space-around;
     gap: 1vh;
 }
-
 .color {
     width: 3vh;
     height: 3vh;
@@ -195,32 +200,26 @@ i{
     transition: transform 0.2s;
     cursor: pointer;
 }
-
 .color:hover {
     transform: scale(1.1);
 }
-
 .color.blue {
     background-color: #9ec6ea;
 }
-
 .color.cream {
     background-color: #e6e3df;
 }
-
 .color.dark-grey {
     background-color: #4b4b4d;
 }
-
 .color.grey {
     background-color: #d2d7da;
 }
-
 .color.green-swamp {
     background-color: #dfe5b7;
 }
-
 .color.peach {
     background-color: #e18472;
 }
 /*liam up*/
+
