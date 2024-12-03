@@ -78,7 +78,7 @@ main img{
 .pop_image{
     margin:30% 0;
 }
-aside{
+section{
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -229,4 +229,88 @@ li{
     background-color: #e18472;
 }
 /*liam up*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+
+  
+  .product-card {
+    background-color: #f8f9fb;
+    width: 300px;
+    padding: 55px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;  
+  }
+  
+  .price {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .separator {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #5f6064;
+    width: 300px;
+  }
+  
+  .selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .quantity-selector {
+    width: 70px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #1a73e9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #135ab9;
+  }
+  
+  .delivery-info {
+    font-size: 11px;
+    color: #576065;  
+    margin: 10px;
+    padding: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    right: 0px;
+    text-align: left;
+    display: flex ;
+  }
+  
+  .delivery-info span {
+    color: #1a73e9;
+    font-weight: bold;
+  }
+
+
+#truck_icon{
+    margin: 2%;
+
+}
