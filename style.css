@@ -12,39 +12,24 @@ body{
     font-size: 0.825rem;
 }
 header{
-    width: 100%;
-    height: fit-content;
-    
-    font-family: "Inter", sans-serif; /*add by Ro*/
-    align-content: center; /*add by Ro*/
-    justify-items: space-between; 
-
+    width: 100%;  
+    position: absolute;
+    border-color: rgb(231, 230, 230);
+    border-width: 2vh;
+    border-style: none none solid;
 }
+
 nav{
     display: flex;
     flex-wrap:wrap; /*add by Ro*/
     align-items: center;
     box-sizing: border-box;
-    justify-content: space-around /*add by Ro*/
-
-}
-
-header{    
-    position: absolute;
-    border-style: none none solid none;
-    border-color: rgb(231, 230, 230);
-    border-width: 2vh;
-    border-style: none none solid;
-    justify-items: space-between; 
-    justify-self: flex-start;
-}
+    justify-content: flex-start;
+} 
 #nav_icons{
     margin:0 45%;
     white-space: nowrap;
 }
-nav{
-    justify-content: flex-start;
-} 
 .nav_entries_selected{
     color:rgb(51, 141, 225);
 }
@@ -90,16 +75,7 @@ main img{
     overflow: hidden;
     object-fit: scale-down;
 }
-.pop_image1{
-    margin:30% 0;
-}
-.pop_image2{
-    margin:30% 0;
-}
-.pop_image3{
-    margin:30% 0;
-}
-.pop_image4{
+.pop_image{
     margin:30% 0;
 }
 aside{
@@ -151,7 +127,6 @@ flex-direction: row;
 color: #5f6368;
 
 }
-
 #nav_icons{
     margin-left: auto;
     margin-right: 3%;
