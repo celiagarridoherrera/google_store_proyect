@@ -3,10 +3,11 @@ body{
     margin:auto;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-between;
     height: 100vh;
     font-family: "Inter", sans-serif;
     font-size: 0.825rem;
+    overflow: hidden;
 }
 header{
     width: 100%;
@@ -26,7 +27,6 @@ nav{
     
 }
 header{    
-    position: absolute;
     border-style: none none solid none;
     border-color: rgb(183, 178, 178);
     justify-items: space-between; 
@@ -110,19 +110,12 @@ button{
     width: 70%;
     padding:3%;
 }
-h1{
-    font-size: 35px;
-    font-weight: bold;
-}
 footer{
     display: flex;
-    position: absolute;
-    bottom:0;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     font-size: 0.575rem;
-
 }
 #nav_icons{
     margin-left: auto;
@@ -163,13 +156,6 @@ li{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#product h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #202124;
-    margin-bottom: 0.5rem;
-}
-
 #product p {
     font-size: 0.875rem;
     font-weight: 400;
@@ -177,6 +163,12 @@ li{
     margin: 0.5rem 0;
 }
 
+h1, #price_number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202124;
+    margin-bottom: 0.5rem;
+}
 #product p.price {
     font-size: 1.1rem;
     font-weight: 700;
@@ -228,3 +220,36 @@ li{
 }
 /*liam up*/
 
+@media (max-width: 480px) and (orientation:portrait){
+    :root {
+      font-size: 1vh;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .none_mobile{
+        display: none;
+    }
+    header, nav, main, aside, footer{
+        width: 100%;
+    }
+    #nav_logo_img{
+        height: 2.5vh;
+    }
+    #pop_images img{
+        width: 80%;
+    }
+    aside{
+        padding:2vh;
+    }
+    h1, #price_number{
+        font-size: 4rem;
+    }
+    #product p {
+        font-size: 1.6rem;
+    }
+}
