@@ -8,20 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <header><!--Rosa-->
+    <header> <!--Rosa acercar G de doogle + aadd icons right bar + links bar  -->
         <nav>
-            <div class="nav_bar">
-                <ul>
-                <img id="nav_logo" src="img/google-logo.png" alt="google logo">
+            <div id="nav_logo">
+                <a href="https://store.google.com/es/search?q=Pixel%20Buds%20Pro&hl=es"><img id="nav_logo_img" alt="google logo" src="img/google-logo.png"></a> 
+            </div>
+            <div id="nav_entries" class="nav_entries_links"> <!--se recomienda nombrar como nav-entries--> 
+                  <ul>
                     <li>Phones</li>
-                    <li>Earbuds</li>
+                    <li class="nav_entries_selected">Earbuds</li>
                     <li>Watches</li>
                     <li>SmartHome</li>
                     <li>Accessories</li>
                     <li>Subscripcions</li>
-                </ul>
+                  </ul>
             </div>
-            <div class="nav_bar">
+            <div id="nav_icons">
                 <img id="search_icon" src="img/icons/Search.svg" alt="icon search">
                 
                 <img id="help_icon" src="img/icons/Help.svg" alt="icon help"> 
@@ -85,22 +87,25 @@
         </div>
     </aside>
     <footer><!--Rosa-->
-        <div class="footer">
-            <img id="X" src="img/icons/SM-x.svg" alt="X icon">
-            <img id="instagram" src="img/icons/SM-instagram.svg" alt="instagram logo">
-            <img id="facebook" src="img/icons/SM-facebook.svg" alt="facebook logo">
-            <img id="youtube" src="img/icons/SM-youtube.svg" alt="youtube logo">
-            <img id="tiktok" src="img/icons/SM-tiktok.svg" alt="tiktok logo">
-        </div>
-        <div class="footer">
-            <ul>
-                <img id="spain_icon" src="img/icons/Spain.svg" alt="Spanish flag">
-                <li>Spain</li>
-                <li>Privacy</li>
-                <li>Google Nest Commitment to Privacy</li>
-                <li>Sales Terms</li>
-                <li>Terms of Service</li>
-            </ul>
+        <div>
+            <div id="footer_icons" class="footer_icons_space">
+                <img id="X" src="img/icons/SM-x.svg" alt="X icon">
+                <img id="instagram" src="img/icons/SM-instagram.svg" alt="instagram logo">
+                <img id="facebook" src="img/icons/SM-facebook.svg" alt="facebook logo">
+                <img id="youtube" src="img/icons/SM-youtube.svg" alt="youtube logo">
+                <img id="tiktok" src="img/icons/SM-tiktok.svg" alt="tiktok logo">
+                </div>
+            </div>
+            <div id="footer_entries">
+                <ul>
+                    <li><img id="spain_icon" src="img/icons/Spain.svg"></li>
+                    <li>Spain</li>
+                    <li>Privacy</li>
+                    <li>Google Nest Commitment to Privacy</li>
+                    <li>Sales Terms</li>
+                    <li>Terms of Service</li>
+               </ul>
+           </div>
         </div>
     </footer>
 </body>
