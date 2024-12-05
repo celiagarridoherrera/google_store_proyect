@@ -1,5 +1,5 @@
 :root {
-    font-size: 1.2vw;
+    font-size: 1.2vw !important;
 }
 body{
     width: 100vw;
@@ -8,7 +8,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     align-content: start;
-    height: 100vh;
+    height: 100vh !important;
     font-family: "Inter", sans-serif;
     font-size: 0.825rem;
 }
@@ -55,8 +55,8 @@ li{
 main{
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    margin-top:3%;
+    width: 98%;
+    margin-top:1.5rem;
 }
 #section_images{
     width: 60%;
@@ -69,6 +69,7 @@ main{
 }
 .back_arrow{
     margin: 1%;
+    width: 1rem;
 }
 #pop_images{
     display: flex;
@@ -124,8 +125,8 @@ h1 {
     gap: 0.8rem;
 }
 .color {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     border: 0.1rem solid rgb(132 133 135);
     transition: transform 0.2s;
@@ -156,8 +157,8 @@ h1 {
 }
 .product_cart {    
     background-color: rgb(248 249 251);
-    border-radius: 6%;
-    margin-top: auto;
+    border-radius: 2%;
+    margin-top: 3rem;
 }  
 .price {
     font-size: 2rem;;
@@ -168,6 +169,7 @@ h1 {
 }  
 .quantity_selector {
     width: 20%;
+    min-width: 30px;
     height: 3rem;
     border-radius: 10%;
     text-align: center;
@@ -228,4 +230,61 @@ footer{
 footer img{
     width: 1rem;
     margin: 0 0.4rem;
+}
+@media (orientation:portrait) and (max-width:480px){
+    :root{
+        font-size: 1.2vh !important;
+    }
+    .none_mobile{
+        display:none;
+    }
+    main{
+        align-items: center;
+    }
+    body, header, main, #section_images, footer{
+        width: 100vw !important;
+    }
+    #section_product{
+        width: 90%;
+    }
+    body, main, footer, ul{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    #nav_icons img{
+        width: 2rem;
+        margin: 0.2rem 1rem;
+    }    
+    #nav_logo_img{
+        height: 3rem;
+        margin: 0 1rem;
+        padding: 0.2rem;
+    }
+    .product_cart{
+        margin-top:2rem;
+    }
+    .selector_container{
+        display: flex;
+        flex-direction: column; 
+        padding: 2rem 1rem 0 1rem;
+    } 
+    .add_to_cart {
+        width: 90%;
+    }
+    #footer_icons img{
+        width: 1.8rem;
+    }    
+    ul{
+        padding: 0;
+    }
+}
+@media (orientation:landscape)and (max-width:480px){
+    :root {
+        font-size: 1.2vw !important;
+    }
+}
+@media (min-width:481px){
+    :root {
+        font-size: 1.2vw !important;
+    }
 }
