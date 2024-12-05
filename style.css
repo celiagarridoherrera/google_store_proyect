@@ -37,6 +37,27 @@ nav{
     color:rgb(26 115 233);
     font-weight: 600;
 }
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown_button{
+    border-style: unset;
+    background-color: #ffffff;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+  
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
 #nav_logo_img{
     height: 2rem;
     margin: 0 1rem;
