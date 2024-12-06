@@ -6,9 +6,10 @@ No existe un estándar para organizar la documentación de apoyo en un repositor
 ---
 
 ## **1. Posible estructura**
+
 Crea carpetas separadas para cada tipo de documentación. Por ejemplo:
 
-```
+```plaintext
 /docs
   /research           # Documentación de investigación
   /retrospectives     # Notas de retrospectivas
@@ -21,14 +22,18 @@ Crea carpetas separadas para cada tipo de documentación. Por ejemplo:
 ---
 
 ## **2. Nombres claros
+
 - Usa nombres de archivos y carpetas descriptivos, sin espacios. Ejemplo:
-  ```
+
+  ```plaintext
   retrospectives/
     2024-12-01-sprint-12-retro.md
     2024-11-25-sprint-11-retro.md
   ```
+
 - Si hay documentos extensos, agrúpalos en subcarpetas:
-  ```
+
+  ```plaintext
   /specifications
     /api
       v1-spec.md
@@ -41,6 +46,7 @@ Crea carpetas separadas para cada tipo de documentación. Por ejemplo:
 ---
 
 ## **3. Usa un archivo `README.md`**
+
 En cada carpeta principal, incluye un `README.md` que explique el contenido. Ejemplo:
 
 ```markdown
@@ -56,15 +62,18 @@ Cada archivo sigue el formato `YYYY-MM-DD-sprint-X-retro.md`.
 ---
 
 ## **4. Control de versiones**
+
 - Usa el control de versiones del repositorio (Git) para rastrear cambios en los documentos.
 - Asegúrate de incluir documentación relevante en los _pull requests_ si afecta el desarrollo o decisiones técnicas.
 
 ---
 
 ## **5. Estandariza formatos**
+
 Define un formato claro para cada tipo de documentación:
 
 ### Retrospectivas
+
 ```markdown
 # Retrospectiva Sprint 12
 Fecha: 2024-12-01
@@ -80,6 +89,7 @@ Fecha: 2024-12-01
 ```
 
 ### Especificaciones técnicas
+
 ```markdown
 # API Specification v1
 ## Endpoints
@@ -95,6 +105,7 @@ Fecha: 2024-12-01
 ---
 
 ## **6. Herramientas específicas**
+
 - Para documentar: Obsidian, Colab...
 - Almacena documentación extensa en herramientas como **Confluence**, **Notion** o **SharePoint**, pero vincúlala desde el repositorio.
 - Para esquemas o diagramas técnicos, usa archivos como `.drawio` o PDF generados desde herramientas como **Lucidchart** o **PlantUML**.
@@ -102,6 +113,7 @@ Fecha: 2024-12-01
 ---
 
 ## **7. Ejemplo de repositorio completo**
+
 ```plaintext
 /docs
   /research
@@ -119,6 +131,9 @@ Fecha: 2024-12-01
 README.md
 LICENSE
 ```
+
+## Fuentes
+
 <details> 
 	<summary>Haz clic para ver fuentes</summary> 
 	<li><italic>ChatGPT. Pendiente de revisar.</italic></li>
