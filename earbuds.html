@@ -8,91 +8,99 @@
     <title>Document</title>
 </head>
 <body>
-    <header><!--Rosa-->
+    <header> 
         <nav>
-            <div class="barra">
-                <ul>
-                <img id="logo" src="img/google-logo.png">
+            <div id="nav_logo">
+                <a href="https://store.google.com/es/search?q=Pixel%20Buds%20Pro&hl=es"><img id="nav_logo_img" alt="google logo" src="img/google-logo.png"></a> 
+            </div>
+            <div id="nav_entries" class="nav_entries_links none_mobile"> 
+                  <ul>
                     <li>Phones</li>
-                    <li>Earbuds</li>
+                    <li class="nav_entries_selected">Earbuds</li>
                     <li>Watches</li>
                     <li>SmartHome</li>
                     <li>Accessories</li>
                     <li>Subscripcions</li>
-                </ul>
+                  </ul>
             </div>
-            <div class="barra">
-                <img id="buscador" src="img/icons/Search.svg">
-                
-                <img id="ayuda" src="img/icons/Help.svg"> 
-                
-                <img id="carrito" src="img/icons/Cart.svg">
-            
-                <img id="usuario" src="img/icons/Avatar.svg">
-
+            <div id="nav_icons">
+                <img id="search_icon" src="img/icons/Search.svg" alt="icon search">                
+                <img id="help_icon" src="img/icons/Help.svg" alt="icon help">                 
+                <img id="cart_icon" src="img/icons/Cart.svg" alt="icon cart">           
+                <img id="user_icon" src="img/icons/Avatar.svg" alt="icon user">
             </div>
         </nav>
     </header>
     <main>
-        <div id="atras"><!--Celia-->
-            <img class="arrow" src="/img/icons/Arrow.svg">
-            <p>See product details</p>
-        </div>
-        <div id="imagenes"><!--Celia-->
-            <div>
-                <div class="pop_airbuds1"><img class="carrusel" src="/img/airbuds/airbuds1.png"></div>
-                <div class="pop_airbuds2"><img class="carrusel" src="/img/airbuds/airbuds2.png"></div>
-                <div class="pop_airbuds3"><img class="carrusel" src="/img/airbuds/airbuds3.png"></div>
-                <div class="pop_airbuds4"><img class="carrusel" src="/img/airbuds/airbuds4.png"></div>
+        <section id="section_images">
+            <div id="back_button"><!--Celia-->
+                <img class="back_arrow" src="img/icons/Arrow.svg">
+                <p>See product details</p>
             </div>
-            <img src="/img/airbuds/airbuds.png">
-        </div>
+            <div id="pop_images"><!--Celia-->
+                <div class="none_mobile">
+                    <div class="pop_image"><img class="image_container" src="img/airbuds/airbuds1.png" alt="Blue wireless earbuds in case"></div>
+                    <div class="pop_image"><img class="image_container" src="img/airbuds/airbuds2.png" alt="Blue earbud"></div>
+                    <div class="pop_image"><img class="image_container" src="img/airbuds/airbuds3.png" alt="Top view of wireless earbuds"></div>
+                    <div class="pop_image"><img class="image_container" src="img/airbuds/airbuds4.png" alt="A pair of blue earbuds"></div>
+                </div>
+                <img src="img/airbuds/airbuds.png" alt="Blue wireless earbuds in case">
+            </div>
+        </section>
+        <section id="section_product">
+            <div id="product"><!--liam-->
+                <h1>Google Pixel Buds Pro</h1>
+                <p>Music & Sound</p>
+                <p id="product_price">229 €</p>
+                <hr class="separator">
+                <p>Choose a color</p>
+                <div id="colors">
+                    <div class="color blue" title="blue"></div>
+                    <div class="color cream" title="cream"></div>
+                    <div class="color dark_grey" title="dark_grey"></div>
+                    <div class="color grey" title="grey"></div>
+                    <div class="color green_swamp" title="green_swamp"></div>
+                    <div class="color peach" title="peach"></div>
+                </div>
+            </div>
+            <div class="product_cart">
+                <div class="selector_container">
+                    <p class="price">229 €</p>
+                    <hr class="separator" />
+                    <select class="quantity_selector">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="3">5</option>
+                    </select>
+                    <button class="add_to_cart">Add to Cart</button>
+                </div>
+                <div class="delivery_info">
+                    <img id="truck_icon" src="img/icons/Delivery.svg" alt="truck_icon"> 
+                    <p>Delivers 29 Apr to <span>08023</span></p> 
+                </div>
+            </div>
+        </section>
     </main>
-    <aside>
-        <div id="producto"><!--liam-->
-            <h1>Google Pixel Buds Pro</h1>
-            <p>Music & Sound</p>
-            <p class="precio">229 €</p>
-            <hr>
-            <p>Choose a color</p>
-            <div id="colores">
-                <div class="color" style="background-color: #9ec6ea;" title="blue"></div>
-                <div class="color" style="background-color: #e6e3df;" title="cream"></div>
-                <div class="color" style="background-color: #4b4b4d;" title="dark grey"></div>
-                <div class="color" style="background-color: #d2d7da;" title="grey"></div>
-                <div class="color" style="background-color: #dfe5b7;" title="green swamp"></div>
-                <div class="color" style="background-color: #e18472;" title="peach"></div>
-            </div>
-        </div>
-        <div id="precio"> <!--Marta-->
-            <h1>229 €</h1>
-            <hr>
-            <div id="cesta">
-                <input type="number" placeholder="0">
-                <button>
-                    Add to cart
-                </button>
-            </div>
-        </div>
-    </aside>
     <footer><!--Rosa-->
-        <div class="foot">
-            <img id="X" src="img/icons/SM-x.svg">
-            <img id="instagram" src="img/icons/SM-instagram.svg">
-            <img id="facebook" src="img/icons/SM-facebook.svg">
-            <img id="youtube" src="img/icons/SM-youtube.svg">
-            <img id="tiktok" src="img/icons/SM-tiktok.svg">
-        </div>
-        <div class="foot">
-            <ul>
-                <img id="españa" src="img/icons/Spain.svg">
-                <li>Spain</li>
-                <li>Privacy</li>
-                <li>Google Nest Commitment to Privacy</li>
-                <li>Sales Terms</li>
-                <li>Terms of Service</li>
-            </ul>
-        </div>
+            <div id="footer_icons">
+                <img id="X" src="img/icons/SM-x.svg" alt="X icon">
+                <img id="instagram" src="img/icons/SM-instagram.svg" alt="instagram logo">
+                <img id="facebook" src="img/icons/SM-facebook.svg" alt="facebook logo">
+                <img id="youtube" src="img/icons/SM-youtube.svg" alt="youtube logo">
+                <img id="tiktok" src="img/icons/SM-tiktok.svg" alt="tiktok logo">
+                </div>
+            </div>
+            <div id="footer_entries">
+                <ul>
+                    <li><img id="spain_icon" src="img/icons/Spain.svg">Spain</li>
+                    <li>Privacy</li>
+                    <li>Google Nest Commitment to Privacy</li>
+                    <li>Sales Terms</li>
+                    <li>Terms of Service</li>
+               </ul>
+           </div>
     </footer>
 </body>
 </html>
