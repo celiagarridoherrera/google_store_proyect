@@ -1,4 +1,4 @@
-document.getElementById('dropdown_button').addEventListener('click', function() {
-    const dropdown = document.getElementById('dropdown');
-    dropdown.classList.toggle('open');
-})
+document.getElementById('menu').addEventListener('change', function () {
+    const menuList = document.getElementById('menu_list');
+      menuList.style.display = this.checked ? 'block' : 'none';
+  })
