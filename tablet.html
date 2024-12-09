@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link src="/src/fonts/inter_variable_font.ttf" rel="stylesheet">
-    <title>Earbuds</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Tablet</title>
 </head>
 <body>
     <header> 
@@ -16,9 +16,9 @@
             <div id="nav_entries" class="nav_entries_links none_mobile"> 
                   <ul>
                     <li>Phones</li>
-                    <li class="nav_entries_selected">Earbuds</li>
+                    <li><a href="earbuds.html">Earbuds</a></li>
                     <li><a href="https://store.google.com/category/watches_trackers?hl=es"></a>Watches</li>
-                    <li><a href="tablet.html">SmartHome</a></li>
+                    <li class="nav_entries_selected">SmartHome</li>
                     <li><a href="https://store.google.com/collection/accessories_wall?hl=es"></a>Accessories</li>
                     <li>Subscripcions</li>
                   </ul>
@@ -29,7 +29,7 @@
                 <div id="cart_icon_div">
                     <p id="cart_pop">0</p>
                     <img id="cart_icon" src="src/img/icons/Cart.svg" alt="icon cart">
-                </div>         
+                </div>            
                 <img id="user_icon" src="src/img/icons/Avatar.svg" alt="icon user">
                 <!-- menu desplegable-->
                 <input type="checkbox" id="menu">
@@ -54,41 +54,37 @@
             </div>
             <div id="pop_images" ><!--Celia-->
                 <div id="pop_image_column" class="none_mobile">
-                    <div class="pop_image"><img class="image_container" src="src/img/earbuds/earbuds1.png" alt="Blue wireless earbuds in case"></div>
-                    <div class="pop_image"><img class="image_container" src="src/img/earbuds/earbuds2.png" alt="Blue earbud"></div>
-                    <div class="pop_image"><img class="image_container" src="src/img/earbuds/earbuds3.png" alt="Top view of wireless earbuds"></div>
-                    <div class="pop_image"><img class="image_container" src="src/img/earbuds/earbuds4.png" alt="A pair of blue earbuds"></div>
+                    <div class="pop_image"><img class="image_container" src="src/img/tablet/tablet.png" alt="White tablet"></div>
+                    <div class="pop_image"><img class="image_container" src="src/img/tablet/tablet1.png" alt="Front White tablet"></div>
+                    <div class="pop_image"><img class="image_container" src="src/img/tablet/tablet2.png" alt="Side White tablet"></div>
+                    <div class="pop_image"><img class="image_container" src="src/img/tablet/tablet3.png" alt="White tablet"></div>
                 </div>
-                <img src="src/img/earbuds/earbuds.png" alt="Blue wireless earbuds in case">
+                <img src="src/img/tablet/tablet.png" alt="White tablet">
             </div>
         </section>
         <section id="section_product">
             <div id="product"><!--liam-->
-                <h1>Google Pixel Buds Pro</h1>
-                <p>Music & Sound</p>
-                <p id="product_price">229 €</p>
+                <h1>Pixel Tablet</h1>
+                <p>Mobile workspace</p>
+                <p id="product_price">399 €</p>
                 <hr class="separator">
                 <p>Choose a color</p>
                 <div id="colors">
-                    <div class="color blue" title="blue"></div>
-                    <div class="color cream" title="cream"></div>
-                    <div class="color dark_grey" title="dark_grey"></div>
-                    <div class="color grey" title="grey"></div>
-                    <div class="color green_swamp" title="green_swamp"></div>
-                    <div class="color peach" title="peach"></div>
+                    <div class="color porcelain" title="porcelain"></div>
+                    <div class="color green_lichen" title="green_lichen"></div>
                 </div>
             </div>
             <div class="product_cart">
                 <div class="selector_container">
-                    <p class="price">229 €</p>
+                    <p class="price">399 €</p>
                     <hr class="separator" />
                     <select class="quantity_selector">
                         <option value=0>0</option>
-                        <option value=1>1</option>
-                        <option value=2>2</option>
-                        <option value=3>3</option>
-                        <option value=4>4</option>
-                        <option value=5>5</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
                     </select>
                     <button class="add_to_cart">Add to Cart</button>
                 </div>

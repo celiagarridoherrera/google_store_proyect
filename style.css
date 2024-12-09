@@ -5,7 +5,7 @@ body{
     width: 100vw;
     margin:auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-content: start;
     height: 100vh !important;
@@ -28,15 +28,57 @@ nav{
 #nav_icons{
     margin-left: auto;
     margin-right: 3%;
+    display: flex;
+    align-items: center;
 }
 #nav_icons img{
     width: 1.5rem;
     margin: 0.2rem 0.4rem;
 }
+#cart_icon_div{
+    position: relative;
+}
+#cart_icon_div p{
+    display: none;
+    position: absolute;
+    background-color: #1a73e9;
+    color: white;
+    border-radius: 50%;
+    padding: 5%;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
 .nav_entries_selected{
     color:rgb(26 115 233);
     font-weight: 600;
 }
+
+/*menu*/
+#menu_list{
+    display: none;
+}
+  
+input:checked ~ #menu_list{
+    display:block;
+}
+  
+input {
+    display: none;
+}
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
 #nav_logo_img{
     height: 2rem;
     margin: 0 1rem;
@@ -51,6 +93,10 @@ ul{
 li{
     margin:0 2%;
     white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    color:rgb(132 133 135);;
 }
 main{
     display: flex;
@@ -84,6 +130,9 @@ main{
     border-radius:80%; 
     height: 3rem;
     border: 0.01rem solid #000000;
+}
+#pop_image_column{
+    flex-direction: column;
 }
 .pop_image{
     margin:30% 0;
@@ -132,28 +181,44 @@ h1 {
     transition: transform 0.2s;
     cursor: pointer;
 }
+.color_selected{
+    border: 0.2rem solid rgb(26 115 233);
+}
 .color:hover {
     transform: scale(1.1);
 }
 .color.blue {
-    background-color: #9ec6ea;
+    background-color: #f49ab7;
 }
 .color.cream {
-    background-color: #e6e3df;
+    background-color: #c7e3d5;
 }
 
 .color.dark_grey {
-    background-color: #4b4b4d;
+    background-color: #eee8e3;
 }
 .color.grey {
-    background-color: #d2d7da;
+    background-color: #2b2b2b;
 }
 
-.color.green_swamp {
-    background-color: #dfe5b7;
+.color.pink {
+    background-color: #f49ab7;
 }
-.color.peach {
-    background-color: #e18472;
+.color.lightblue {
+    background-color: #c7e3d5;
+}
+
+.color.whitecream {
+    background-color: #eee8e3;
+}
+.color.blackgrey {
+    background-color: #2b2b2b;
+}
+.color.porcelain {
+    background-color: #e9e0d5;
+}
+.color.green_lichen {
+    background-color: #53594c;
 }
 .product_cart {    
     background-color: rgb(248 249 251);
@@ -277,14 +342,89 @@ footer img{
     ul{
         padding: 0;
     }
-}
+    .none_mobile {
+        display: none;
+      }
+    
+    #menu_icon {
+        display: inline-block;
+      }
+    #menu_list {
+        display: none; 
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
+        width: 40%;
+        z-index: 1000;
+        padding: 1rem 0;
+        border-radius: 8px;
+      }
+      #menu_list li {
+        margin: 1rem 0;
+        text-align: center;
+    }  
+    input:checked ~ #menu_list {
+        display: block; 
+      }
+    #menu {
+        display: none;
+    label {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        }
+    }
+    }
+
 @media (orientation:landscape)and (max-width:480px){
     :root {
         font-size: 1.2vw !important;
     }
+
+  .none_mobile {
+    display: none !important;
+  }
+
+  #menu_icon {
+    display: inline-block;
+  }
+
+  #menu_list {
+    display: none; 
+    position: absolute;
+    top: 60px;
+    right: 0; 
+    background-color: white;
+    width: 40%;
+    z-index: 1000;
+    padding: 1rem 0;
+    border-radius: 8px;
+  }
+
+  input:checked ~ #menu_list {
+    display: block;
+  }
+  #menu {
+    display: none;
+}
+  label {
+    display: block;
+    cursor: pointer;
+}
+
 }
 @media (min-width:481px){
     :root {
         font-size: 1.2vw !important;
+    }
+    #menu_icon,
+    #menu_list {
+        display: none;
+    }
+    .none_mobile {
+        display: flex;
     }
 }
