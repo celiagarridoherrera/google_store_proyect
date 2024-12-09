@@ -78,6 +78,10 @@ li{
     margin:0 2%;
     white-space: nowrap;
 }
+a{
+    text-decoration: none;
+    color:rgb(132 133 135);;
+}
 main{
     display: flex;
     justify-content: space-around;
