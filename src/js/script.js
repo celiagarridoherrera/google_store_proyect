@@ -9,6 +9,7 @@ document.querySelector(".add_to_cart").addEventListener('click', function (){
   if(condition_color && condition_unit){
     let unit = Number(document.querySelector(".quantity_selector").value);
     let cart_num = Number(document.querySelector("#cart_pop").textContent);
+    document.querySelector("#cart_pop").style.display = "block";
     document.querySelector("#cart_pop").textContent = unit+cart_num;
     document.querySelector(".quantity_selector").value=0;
     condition_color = false;
