@@ -184,6 +184,12 @@ h1 {
 .color.peach {
     background-color: #e18472;
 }
+.color.porcelain {
+    background-color: #e9e0d5;
+}
+.color.green_lichen {
+    background-color: #53594c;
+}
 .product_cart {    
     background-color: rgb(248 249 251);
     border-radius: 2%;
