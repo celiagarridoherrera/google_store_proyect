@@ -45,6 +45,8 @@ nav{
     border-radius: 50%;
     padding: 5%;
     font-weight: 600;
+    width: 50%;
+    text-align: center;
 }
 .nav_entries_selected{
     color:rgb(26 115 233);
