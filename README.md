@@ -33,7 +33,7 @@ El MVP de nuestro proyecto es la página de los earbuds con la información del 
 
 El enlace al repositorio es: [https://github.com/celiagarridoherrera/google_store_proyect.git](https://github.com/celiagarridoherrera/google_store_proyect.git)
 
-### Contenido:
+### Contenido
 
 - earbuds.html
 - style.css
