@@ -111,6 +111,9 @@ main{
     height: 3rem;
     border: 0.01rem solid #000000;
 }
+#pop_image_column{
+    flex-direction: column;
+}
 .pop_image{
     margin:30% 0;
 }
