@@ -181,6 +181,9 @@ h1 {
     transition: transform 0.2s;
     cursor: pointer;
 }
+.color_selected{
+    border: 0.2rem solid rgb(26 115 233);
+}
 .color:hover {
     transform: scale(1.1);
 }
