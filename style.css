@@ -346,7 +346,7 @@ footer img{
     }
 
   .none_mobile {
-    display: none;
+    display: none !important;
   }
 
   #menu_icon {
