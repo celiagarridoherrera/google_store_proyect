@@ -24,6 +24,6 @@
 - **Evitar las improvisaciones:** Todo lo que realicemos que afecte al equipo se debe consensuar para dar con la mejor solución y evitar coger por sorpresa al equipo.
 - **Documentación**: Una persona se encarga de tramitar la documentación atrasada. *Retro, jira, investigación de git*
 #### Parte técnica:
-- **Estructura y estilo:** Aunque vamos por buen camino, tenemos que finalizar la tarea actual de la estructura de la página de los airbuds para afinarla.
+- **Estructura y estilo:** Aunque vamos por buen camino, tenemos que finalizar la tarea actual de la estructura de la página de los earbuds para afinarla.
 - **Estandarización de los nombres:** Una persona se encarga de estandarizar los nombres y explicar al resto cual es el estándar.
 - **Arreglar el repositorio en Github:** Una persona se encarga de solucionar los errores en la estructura de git con los conocimientos actuales.
