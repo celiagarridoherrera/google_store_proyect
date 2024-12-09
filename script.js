@@ -8,3 +8,8 @@ document.querySelector(".add_to_cart").addEventListener('click', function (){
   let cart_num = Number(document.querySelector("#cart_pop").textContent);
   document.querySelector("#cart_pop").textContent = unit+cart_num;
 });
+document.querySelector(".color").forEach(element => {
+  selector.addEventListener('click', function (){
+    alert("aqui");
+  });
+});
