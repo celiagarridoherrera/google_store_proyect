@@ -117,6 +117,18 @@ Cada página de la web tiene una navbar y un footer que permite moverse por las 
 
 ## **Workflow**
 
-![Sitemap](/docs/guidelines/linkmap.png)
+![workflow](/docs/guidelines/workflow.png)
 
-- [Enlace al documento del test de Gherkin](/docs/test/2024_12_06_gherkin_test)
+- [Haz click para ver la imagenmás grande](/docs/guidelines/workflow.png)
+
+## Informe de las tareas de Jira
+
+- [Enlace al tablero de Jira](https://martabernardozamora-1733517595288.atlassian.net/issues/?filter=10002&jql=ORDER%20BY%20cf%5B10020%5D%20DESC%2C%20status%20DESC%2C%20created%20DESC)
+- [Enlace al informe de Jira en html](/docs/jira_reports/jira.html)
+
+## **Historias de usuario**
+
+Hemos utilizado la descripción de las tareas de Jira para almacenar la historia de usuario de cada tarea.
+
+- [Enlace al tablero de Jira](https://martabernardozamora-1733517595288.atlassian.net/issues/?filter=10002&jql=ORDER%20BY%20cf%5B10020%5D%20DESC%2C%20status%20DESC%2C%20created%20DESC)
+- [Enlace al informe de Jira en html](/docs/jira_reports/jira.html)
