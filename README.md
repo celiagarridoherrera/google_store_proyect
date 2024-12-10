@@ -102,6 +102,7 @@ El enlace al repositorio es: [https://github.com/celiagarridoherrera/google_stor
 ## **Wireframes y mockup**
 
 [Click aquí para ver los wireframes en Figma](https://www.figma.com/design/KBlOoE3OuunM3CI1p5xTzy/Google-Store?node-id=74-2&node-type=canvas&t=wyKF7gWJDZt04Eb6-0)
+
 [Click aquí para ver los mockup en Figma](https://www.figma.com/design/KBlOoE3OuunM3CI1p5xTzy/Google-Store?node-id=0-1&t=Ispf4rw8ReFR0okT-1)
 
 ## **Sitemap**
