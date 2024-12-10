@@ -110,7 +110,7 @@ El enlace al repositorio es: [https://github.com/celiagarridoherrera/google_stor
 Cada página de la web tiene una navbar y un footer que permite moverse por las páginas de los productos a través de enlaces internos (en lila) y acceder a la página principal de Google Store y otra información real a través de enlaces externos (en azul claro).
 
 ![Sitemap](/docs/guidelines/linkmap.png)
-[Click aquí para ver la imagen en mayor tamaño](linkmap.png)
+[Click aquí para ver la imagen en mayor tamaño](/docs/guidelines/linkmap.png)
 
 ## **Retrospectivas**
 
