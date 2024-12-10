@@ -188,31 +188,38 @@ h1 {
     transform: scale(1.1);
 }
 .color.blue {
-    background-color: #f49ab7;
+    background-color: #9ec6ea;
 }
 .color.cream {
-    background-color: #c7e3d5;
+    background-color: #e7e3e0;
 }
 
 .color.dark_grey {
-    background-color: #eee8e3;
+    background-color: #4b4b4d;
 }
 .color.grey {
-    background-color: #2b2b2b;
+    background-color: #d2d7da;
+}
+
+.color.green_swamp{
+    background-color: #dfe5b7;
+}
+.color.peach {
+    background-color: #e18472;
 }
 
 .color.pink {
-    background-color: #f49ab7;
+    background-color: #ef89a1;
 }
-.color.lightblue {
-    background-color: #c7e3d5;
+.color.lightgreen {
+    background-color: #d7ead7;
 }
 
 .color.whitecream {
     background-color: #eee8e3;
 }
 .color.blackgrey {
-    background-color: #2b2b2b;
+    background-color: #343434;
 }
 .color.porcelain {
     background-color: #e9e0d5;
