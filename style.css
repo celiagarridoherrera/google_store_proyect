@@ -19,7 +19,7 @@ header{
 nav{
     display: flex;
     width: 100%;
-    flex-wrap:wrap; /*add by Ro*/
+    flex-wrap:wrap; 
     align-items: center;
     box-sizing: border-box;
     justify-content: flex-start;
@@ -54,7 +54,6 @@ nav{
     font-weight: 600;
 }
 
-/*menu*/
 #menu_list{
     display: none;
 }
@@ -138,7 +137,6 @@ main{
     margin:30% 0;
 }
 
-/*liam down*/
 #section_product{
     width: 35%;
     display: flex;
