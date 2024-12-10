@@ -99,6 +99,10 @@ El enlace al repositorio es: [https://github.com/celiagarridoherrera/google_stor
     - 2024-11-29-sprint-1-retro.md
   - test
     - 2024_12_06_gherkin_test
+## **Wireframes y mockup**
+
+[Click aquí para ver los wireframes en Figma](https://www.figma.com/design/KBlOoE3OuunM3CI1p5xTzy/Google-Store?node-id=74-2&node-type=canvas&t=wyKF7gWJDZt04Eb6-0)
+[Click aquí para ver los mockup en Figma](https://www.figma.com/design/KBlOoE3OuunM3CI1p5xTzy/Google-Store?node-id=0-1&t=Ispf4rw8ReFR0okT-1)
 
 ## **Sitemap**
 
@@ -109,11 +113,11 @@ Cada página de la web tiene una navbar y un footer que permite moverse por las 
 
 ## **Retrospectivas**
 
-- [Enlace al documento Retro 29/11/24: primer sprint proyecto Google-Store](/docs/retrospectives/2024_11_29_sprint_1_retro)
+- [Enlace al documento Retro 29/11/24: primer sprint proyecto Google-Store](/docs/retrospectives/2024_11_29_sprint_1_retro.md)
 
 ## **Test de Gherkin**
 
-- [Enlace al documento del test de Gherkin](/docs/test/2024_12_06_gherkin_test)
+- [Enlace al documento del test de Gherkin](/docs/test/2024_12_06_gherkin_test.md)
 
 ## **Workflow**
 
