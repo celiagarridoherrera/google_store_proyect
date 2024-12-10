@@ -114,7 +114,7 @@ Cada página de la web tiene una navbar y un footer que permite moverse por las 
 
 ## **Retrospectivas**
 
-- [Enlace al documento Retro 29/11/24: primer sprint proyecto Google-Store](/docs/retrospectives/2024_11_29_sprint_1_retro.md)
+- [Enlace al documento Retro 29/11/24: primer sprint proyecto Google-Store](/docs/retrospectives/2024-11-29-sprint-1-retro.md)
 
 ## **Test de Gherkin**
 
